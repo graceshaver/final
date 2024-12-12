@@ -1,0 +1,77 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../assets/img/clouds2.webp);
+    color: black;
+    
+
+}
+.site-heading-lower{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.mb-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.mb-0{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#mainNav {
+    background-color: rgba(41, 46, 53, 0);
+    color: black;
+    
+}
+.nav-link{
+    color: black;
+}
+.section-heading-upper{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.section-heading-lower{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro-text{
+    background-color: pink;
+}
+.col-xl-9{
+    background-color: white;
+}
+.bg-faded{
+    background-color: pink;
+}
+.italictext{
+    font-style: italic;
+}
+.boldtext{
+    font-weight: bold;
+}
+.resumelist{
+    text-decoration: underline;
+}
+/* .cta-inner{
+    text-align: justify;
+} */
+.just{
+    text-align: justify;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0);
+}
+.cta{
+    background-color: rgba(91, 94, 98, 0);
+}
+/* .text-uppercase{
+    color: black;
+}
+.py-lg-4{
+    color: black;
+} */
+ .anchortext{
+    color: black;
+ }

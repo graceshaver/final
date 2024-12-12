@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Joke Generator</title>
+<style>
+/* Add your CSS styles here */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(43, 1, 120);
+  background-color: rgb(218, 242, 244);
+}
+#joke-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid rgb(43, 1, 120);
+  border-radius: 5px;
+  text-align: center;
+}
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1 {
+  text-align: center; /* Centers the h1 element */
+}
+</style>
+</head>
+<body>
+  <h1>Joke Generator</h1>
+  <button id="get-joke">Get a Joke</button>
+  <div id="joke-container"></div>
+  <script>
+    // Your JavaScript code will go here
+    const jokes = [
+  "Why don't scientists trust atoms? Because they make up everything!",
+  "Why did the bicycle fall over? Because it was two tired.",
+  "What do you call a lazy kangaroo? Pouch potato!",
+  "What time is it when the clock strikes 13? Time to get a new clock!",
+  "Why don't skeletons fight? They don't have the guts!",
+  "Why did the picture go to jail? Because it was framed!",
+  "What do you call a fake noodle? An impasta!",
+  "Why can't Monday lift Saturday? It's a weak day!",
+  "What shirt should you wear to a tea party? A t-shirt!",
+  "Why did the scarecrow win an award? Because he was outstanding in his field!"  
+];
+
+let currentJokeIndex = 0;
+
+const getJokeButton = document.getElementById('get-joke');
+const jokeContainer = document.getElementById('joke-container');
+
+getJokeButton.addEventListener('click', () => {
+  jokeContainer.textContent = jokes[currentJokeIndex];
+  currentJokeIndex = (currentJokeIndex + 1) % jokes.length; // Cycle through jokes
+});
+  </script>
+
+   <br><br> <img src="../assets/images/courtjester-with-dog.jpg" alt="black and white cartoon drawing of a court jester with a dog" id="center" height="75%"> <br><br>
+
+</body>
+</html>

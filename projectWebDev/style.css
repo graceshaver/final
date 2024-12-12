@@ -1,0 +1,57 @@
+.body{
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+.headingtext{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.common{
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+    /* position: absolute; */
+
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 75px;
+    text-align: center;
+}
+.leftbox{
+    left: 5px;
+    right: 960px;
+    top: 90px;
+    
+
+}
+.rightbox{
+    top: 90px;
+    right: 5px;
+    left: 582;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.videobox{
+    top: 402px;
+    left: 5px;
+    right: 958px;
+   
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .link{
+    color: rgb(147, 236, 224);
+    text-decoration: underline;
+    text-align: left;
+    z-index: 2;
+  }
